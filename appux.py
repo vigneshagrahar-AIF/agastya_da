@@ -23,7 +23,7 @@ st.set_page_config(
     menu_items={
         "Get Help": "mailto:ops@agastya.org",
         "Report a bug": "mailto:ops@agastya.org",
-        "About": "Agastya – Data Assessment Dashboard • Clean → Score → Aggregate → Visualize",
+        "About": "Agastya – Daily Assessment Dashboard • Clean → Score → Aggregate → Visualize",
     },
 )
 APP_VER = "AIO v2.0 – polished UI (first-sheet only + cached)"
@@ -905,3 +905,4 @@ with coly:
     st.caption("Excel contains: Region Summary, Ignator Summary, Region×Ignator, Completion breakdown, Data Quality, Anomalies, and (if enabled) Per-Question Stats.")
 
 st.caption(f"Built for Agastya • {APP_VER}")
+
